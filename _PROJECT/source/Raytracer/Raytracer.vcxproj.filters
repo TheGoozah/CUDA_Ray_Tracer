@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CudaCompile Include="Tracer.cu">
+      <Filter>Rendering</Filter>
+    </CudaCompile>
+    <CudaCompile Include="DeviceContext.cu">
+      <Filter>Rendering\Device</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Rendering">
+      <UniqueIdentifier>{12d78910-9598-4f44-a962-a354e75806b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{b7b014d9-a221-4ae5-accc-4b3f2657257d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{2b236dab-86a0-4757-996b-37857ab3bcec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\Geometry">
+      <UniqueIdentifier>{af902be2-751b-4a7e-8b67-e1782f3513ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Input">
+      <UniqueIdentifier>{be3d921e-4f8a-4184-9174-0a0c83b4fd42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Helpers">
+      <UniqueIdentifier>{9e8672ba-abaf-4005-8573-213c10a7a062}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Timer">
+      <UniqueIdentifier>{7e603b99-61e9-4123-837a-d35388b40f9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Window">
+      <UniqueIdentifier>{9fc95062-c608-41a0-83d7-8d6295815a67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\Sampling">
+      <UniqueIdentifier>{47f29594-cfe8-4213-ba0c-a679337f5189}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\Device">
+      <UniqueIdentifier>{cc2b8b52-18fa-4b4c-8612-afbd173d7f8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\Helpers">
+      <UniqueIdentifier>{56880601-e0d2-4f35-862f-c2c4517feb88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\Camera">
+      <UniqueIdentifier>{6844d171-e03e-4c10-92a0-c30780c24251}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\Lighting">
+      <UniqueIdentifier>{9e0bcb46-fafb-462d-b5fa-0cc2111bbf33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\SceneGraph">
+      <UniqueIdentifier>{44d80e29-fad4-408d-9cc5-436cdea3e90f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\Materials">
+      <UniqueIdentifier>{3022bcdb-03a8-4f3d-a6ae-a1f76da65459}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Core\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Core\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Core\Window</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Math.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="MathUtilities.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix2.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix3.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix4.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Point2.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Point3.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Point4.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector4.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneGraph.h">
+      <Filter>Core\SceneGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry.h">
+      <Filter>Rendering\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Intersections.h">
+      <Filter>Rendering\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="InputCodes.h">
+      <Filter>Core\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="InputData.h">
+      <Filter>Core\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Core\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Tracer.cuh">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Core\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Core\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Core\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Containers.h">
+      <Filter>Core\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Buffers.h">
+      <Filter>Core\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Sampling.h">
+      <Filter>Rendering\Sampling</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceContext.cuh">
+      <Filter>Rendering\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="GPUHelpers.h">
+      <Filter>Rendering\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="GPULock.cuh">
+      <Filter>Rendering\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Rendering\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Lights.h">
+      <Filter>Rendering\Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="RGBColor.h">
+      <Filter>Rendering\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Materials.h">
+      <Filter>Rendering\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="BRDF.h">
+      <Filter>Rendering\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialManager.h">
+      <Filter>Rendering\Materials</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
